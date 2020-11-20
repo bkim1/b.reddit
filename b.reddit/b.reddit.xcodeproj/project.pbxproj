@@ -10,7 +10,6 @@
 		6692795725676EF6006424B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692795625676EF6006424B4 /* AppDelegate.swift */; };
 		6692795925676EF6006424B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692795825676EF6006424B4 /* SceneDelegate.swift */; };
 		6692795B25676EF6006424B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692795A25676EF6006424B4 /* ViewController.swift */; };
-		6692795E25676EF6006424B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6692795C25676EF6006424B4 /* Main.storyboard */; };
 		6692796025676EF7006424B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6692795F25676EF7006424B4 /* Assets.xcassets */; };
 		6692796325676EF7006424B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6692796125676EF7006424B4 /* LaunchScreen.storyboard */; };
 		6692796E25676EF7006424B4 /* b_redditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692796D25676EF7006424B4 /* b_redditTests.swift */; };
@@ -39,7 +38,6 @@
 		6692795625676EF6006424B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6692795825676EF6006424B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6692795A25676EF6006424B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6692795D25676EF6006424B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6692795F25676EF7006424B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6692796225676EF7006424B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6692796425676EF7006424B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				6692795625676EF6006424B4 /* AppDelegate.swift */,
 				6692795825676EF6006424B4 /* SceneDelegate.swift */,
 				6692795A25676EF6006424B4 /* ViewController.swift */,
-				6692795C25676EF6006424B4 /* Main.storyboard */,
 				6692795F25676EF7006424B4 /* Assets.xcassets */,
 				6692796125676EF7006424B4 /* LaunchScreen.storyboard */,
 				6692796425676EF7006424B4 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				6692796325676EF7006424B4 /* LaunchScreen.storyboard in Resources */,
 				6692796025676EF7006424B4 /* Assets.xcassets in Resources */,
-				6692795E25676EF6006424B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6692795C25676EF6006424B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6692795D25676EF6006424B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6692796125676EF7006424B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJQREKL6RT;
 				INFOPLIST_FILE = b.reddit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LJQREKL6RT;
 				INFOPLIST_FILE = b.reddit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
