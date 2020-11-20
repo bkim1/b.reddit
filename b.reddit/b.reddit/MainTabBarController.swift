@@ -5,12 +5,15 @@
 //  Created by Branden Kim on 11/19/20.
 //
 
+import Posts
+import Profile
+import Settings
 import UIKit
 
 class MainTabBarController: UITabBarController {
-    lazy var postsViewController = ViewController()
-    lazy var profileViewController = UIViewController()
-    lazy var settingsViewController = UIViewController()
+    lazy var postsViewController = PostsModule.build()
+    lazy var profileViewController = ProfileModule.build()
+    lazy var settingsViewController = SettingsModule.build()
 
     init() {
         super.init(nibName: nil, bundle: nil)

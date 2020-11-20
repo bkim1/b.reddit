@@ -5,7 +5,7 @@
 //  Created by Branden Kim on 11/19/20.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for Settings.
 FOUNDATION_EXPORT double SettingsVersionNumber;
